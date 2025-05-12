@@ -50,7 +50,6 @@ group :development do
   gem "web-console"
 
   # Highlight the fine-grained location where an error occurred [https://github.com/ruby/error_highlight]
-  gem "error_highlight", ">= 0.4.0", platforms: [ :ruby ]
 end
 
 group :test do
@@ -60,3 +59,4 @@ group :test do
 end
 
 gem "bundler", "~> 2.5.0"
+gem "error_highlight", ">= 0.7.0", platforms: [ :ruby ]
