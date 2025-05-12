@@ -58,4 +58,4 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "bundler", "~> 2.5.0"
+# gem "bundler", "~> 2.5.0"
