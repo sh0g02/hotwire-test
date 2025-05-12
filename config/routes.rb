@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
 
   # User routes
-  resources :users, only: [:index]
+  resources :users, only: [ :index ]
 
   # Defines the root path route ("/")
   root "users#index"
