@@ -59,4 +59,3 @@ group :test do
 end
 
 gem "bundler", "~> 2.5.0"
-gem "error_highlight", ">= 0.7.0", platforms: [ :ruby ]
